@@ -1,26 +1,26 @@
-import React, { Component } from 'react';
 // import Button from 'antd/es/button';
-import Menu from 'antd/es/menu';
+import Menu from "antd/es/menu";
+import React, { Component } from "react";
 // import Icon from 'antd/es/icon';
-import './App.scss';
-import NamePage from './NamePage'
+import "./App.scss";
+import NamePage from "./NamePage";
 
 // const { SubMenu } = Menu;
 
 class App extends Component {
 
-  state = {
-    current: 'mail',
+  public state = {
+    current: "mail",
   };
 
-  handleClick = (e: any) => {
-    console.log('click ', e);
+  public handleClick = (e: any) => {
+    console.log("click ", e);
     this.setState({
       current: e.key,
     });
-  };
+  }
 
-  render() {
+  public render() {
     return (
       <div className="App">
         <Menu onClick={this.handleClick} selectedKeys={[this.state.current]} mode="horizontal">
