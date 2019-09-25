@@ -1,0 +1,19 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "max-classes-per-file": false,
+        "no-console": false,
+        "prefer-const": true,
+        "ban-types": [true, ["Object", "Use {} instead."], ["String"]]
+    },
+    "rulesDirectory": [],
+    "linterOptions": {
+        "exclude": [
+            "src/serviceWorker.ts"
+        ]
+    }
+}
