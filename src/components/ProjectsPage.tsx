@@ -5,7 +5,7 @@ class NamePage extends Component {
 
   public render() {
     return (
-      <div className="NamePage">
+      <div className="Page">
       Project World
       </div>
     );
