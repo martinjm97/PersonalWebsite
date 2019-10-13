@@ -1,4 +1,4 @@
-import { Layout } from "antd";
+import { Icon, Layout } from "antd";
 import Menu from "antd/es/menu";
 import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
@@ -43,7 +43,10 @@ class App extends Component {
             <Route path="/experience" component={ExperiencePage} />
             <Route path="/projects" component={ProjectsPage} />
           </Content>
-          <Footer style={{ textAlign: "center" }}>Say some things in the footer</Footer>
+          <Footer style={{ textAlign: "center" }}>
+            <span><a href="email@mail.com"><Icon type="mail" /> email@mail.com</a></span>
+            <span><a href="linkedin.com/name"><Icon type="linkedin" /> linkedin.com/name</a></span>
+          </Footer>
         </Layout>
       </Router>
     );

@@ -76,6 +76,25 @@
   height: 150px;
   background-color: #444;
   float: left;
+  margin-right: 10px;
+}
+
+.projectTitle {
+  text-align: left;
+  margin-top: 28px;
+  font-size: 24px;
+}
+
+.projectPlaceholderImg {
+  width: 100px;
+  height: 100px;
+  background-color: #444;
+  float: left;
   margin-right: 30px;
   margin-bottom: 30px;
+}
+
+footer span {
+  margin-right: 15px;
+  font-size: 16px;
 }
