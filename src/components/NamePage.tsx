@@ -3,17 +3,6 @@ import "./NamePage.scss";
 
 class NamePage extends Component {
 
-  public state = {
-    current: "mail",
-  };
-
-  public handleClick = (e: any) => {
-    console.log("click ", e);
-    this.setState({
-      current: e.key,
-    });
-  }
-
   public render() {
     return (
       <div className="NamePage" style={{maxWidth: 800, margin: "0 auto", textAlign:"left"}}>
