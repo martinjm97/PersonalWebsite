@@ -69,9 +69,23 @@
   font-size: 24px;
 }
 
-.placeholderImage {
-  width: 150;
-  height: 150;
+.placeholderImg {
+  width: 150px;
+  height: 150px;
+  background-color: #444;
+  float: left;
+  margin-right: 10px;
+}
+
+.projectTitle {
+  text-align: left;
+  margin-top: 28px;
+  font-size: 24px;
+}
+
+.projectPlaceholderImg {
+  width: 100px;
+  height: 100px;
   background-color: #444;
   float: left;
   margin-right: 10px;
