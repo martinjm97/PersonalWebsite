@@ -23,9 +23,9 @@ class App extends Component {
     return (
       <Router>
         <Layout>
-          <Header>
-            <Menu onClick={this.handleClick}
-                selectedKeys={[window.location.pathname==="/" ? "name" : window.location.pathname.split("/").join("")]}
+          <Header style={{position: "fixed", width: "100%"}}>
+            <Menu onClick={this.handleClick} selectedKeys=
+                  {[window.location.pathname === "/" ? "name" : window.location.pathname.split("/").join("")]}
                 mode="horizontal" className="Menu" style={{ lineHeight: "64px" }}>
               <Menu.Item key="name">
                 <Link to="/">Name</Link>
