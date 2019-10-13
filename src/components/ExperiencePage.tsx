@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import "./App.scss";
 
-class NamePage extends Component {
+class ExperiencePage extends Component {
 
   public render() {
     return (
-      <div className="NamePage">
+      <div className="Page">
         Experience World
       </div>
     );
   }
 }
 
-export default NamePage;
+export default ExperiencePage;

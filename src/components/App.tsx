@@ -13,12 +13,7 @@ const { Header, Content, Footer } = Layout;
 
 class App extends Component {
 
-  public state = {
-    current: "name",
-  };
-
   public handleClick = (e: any) => {
-    console.log("click ", e);
     this.setState({
       current: e.key,
     });
@@ -29,7 +24,8 @@ class App extends Component {
       <Router>
         <Layout>
           <Header>
-            <Menu onClick={this.handleClick} selectedKeys={[this.state.current]}
+            <Menu onClick={this.handleClick}
+                selectedKeys={[window.location.pathname==="/" ? "name" : window.location.pathname.split("/").join("")]}
                 mode="horizontal" className="Menu" style={{ lineHeight: "64px" }}>
               <Menu.Item key="name">
                 <Link to="/">Name</Link>
