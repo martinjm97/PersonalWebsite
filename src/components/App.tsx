@@ -14,7 +14,7 @@ const { Header, Content, Footer } = Layout;
 class App extends Component {
 
   public state = {
-    current: "mail",
+    current: "name",
   };
 
   public handleClick = (e: any) => {
