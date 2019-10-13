@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./NamePage.scss";
+import "./App.scss";
 
 class NamePage extends Component {
 

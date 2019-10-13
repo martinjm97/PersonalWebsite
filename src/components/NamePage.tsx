@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import "./NamePage.scss";
+import "./App.scss";
 
 class NamePage extends Component {
 
   public render() {
     return (
-      <div className="NamePage" style={{maxWidth: 800, margin: "0 auto", textAlign:"left"}}>
-        <h1 style={{textAlign:"left", marginTop: "10px", fontSize:"32px"}}> John Doe-Smith</h1>
-        <img style={{width: 150, height: 150, backgroundColor: "#444", float:"right", marginLeft: "10px"}}></img>
+      <div className="NamePage">
+        <h1 className="nameTitle">John Doe-Smith</h1>
+        <img className="placeholderPortrait"></img>
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sint dignissimos reprehenderit ratione delectus ad ea nisi quidem enim tempora, temporibus consequuntur aspernatur voluptatibus molestiae minus cum praesentium, deleniti voluptatem.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam nihil non inventore eos expedita eius vero illum velit eveniet, ipsum itaque accusamus laborum perferendis fuga porro voluptatibus fugiat commodi.
         
@@ -18,8 +18,8 @@ class NamePage extends Component {
 
         </p>
 
-        <h2 style={{textAlign:"left", marginTop: "10px", fontSize:"24px"}}> Hobbies</h2>
-        <img style={{width: 150, height: 150, backgroundColor: "#444", float:"left", marginRight: "10px"}}></img>
+        <h2 className="sectionTitle"> Hobbies</h2>
+        <img className="placeholderImg"></img>
         <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis sint dignissimos reprehenderit ratione delectus ad ea nisi quidem enim tempora, temporibus consequuntur aspernatur voluptatibus molestiae minus cum praesentium, deleniti voluptatem.
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quisquam nihil non inventore eos expedita eius vero illum velit eveniet, ipsum itaque accusamus laborum perferendis fuga porro voluptatibus fugiat commodi.
 
