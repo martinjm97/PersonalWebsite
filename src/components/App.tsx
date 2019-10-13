@@ -46,6 +46,7 @@ class App extends Component {
           <Footer style={{ textAlign: "center" }}>
             <span><a href="email@mail.com"><Icon type="mail" /> email@mail.com</a></span>
             <span><a href="linkedin.com/name"><Icon type="linkedin" /> linkedin.com/name</a></span>
+            <p>© 2019 <a>Jesse Michel</a> and <a>Zack Holbrook</a></p>
           </Footer>
         </Layout>
       </Router>
