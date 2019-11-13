@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 import ExperiencePage from "./ExperiencePage";
 import NamePage from "./NamePage";
 import ProjectsPage from "./ProjectsPage";
+import HobbiesPage from "./HobbiesPage";
 
 import "./App.scss";
 
@@ -28,7 +29,7 @@ class App extends Component {
                   {[window.location.pathname === "/" ? "name" : window.location.pathname.split("/").join("")]}
                 mode="horizontal" className="Menu" style={{ lineHeight: "40px" }}>
               <Menu.Item key="name">
-                <Link to="/">Name</Link>
+                <Link to="/">Jesse</Link>
               </Menu.Item>
               <Menu.Item key="experience">
                 <Link to="/experience">Experience</Link>
@@ -36,16 +37,20 @@ class App extends Component {
               <Menu.Item key="projects">
                 <Link to="/projects">Projects</Link>
               </Menu.Item>
+              <Menu.Item key="hobbies">
+                <Link to="/hobbies">Hobbies</Link>
+              </Menu.Item>
             </Menu>
           </Header>
           <Content style={{minHeight: "calc(100vh - 134px)" }}>
             <Route exact path="/" component={NamePage} />
             <Route path="/experience" component={ExperiencePage} />
             <Route path="/projects" component={ProjectsPage} />
+            <Route path="/hobbies" component={HobbiesPage} />
           </Content>
           <Footer style={{ textAlign: "center" }}>
-            <span><a href="email@mail.com"><Icon type="mail" /> email@mail.com</a></span>
-            <span><a href="linkedin.com/name"><Icon type="linkedin" /> linkedin.com/name</a></span>
+            <span><a href="jmmichel@csail.mit.edu"><Icon type="mail" /></a></span>
+            <span><a href="https://www.linkedin.com/in/jesse-michel-a5467693/"><Icon type="linkedin" /> </a></span>
             <p>© 2019 <a>Jesse Michel</a> and <a>Zack Holbrook</a></p>
           </Footer>
         </Layout>

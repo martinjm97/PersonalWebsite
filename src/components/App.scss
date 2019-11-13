@@ -60,14 +60,13 @@
   }
 }
 
-.nameTitle {
+.mainTitle {
   text-align: left;
   font-size: 42px;
 }
 
 .placeholderPortrait {
-  width: 190px;
-  height: 230px;
+  width: 200px;
   background-color: #444;
   float: right;
   margin-left: 30px;
@@ -79,9 +78,9 @@
   font-size: 32px;
 }
 
-.placeholderImg {
-  width: 150px;
-  height: 150px;
+.hobbiesImg {
+  width: 175px;
+  margin-bottom: 25px;
   background-color: #444;
   float: left;
   margin-right: 10px;
@@ -89,17 +88,44 @@
 
 .projectTitle {
   text-align: left;
-  margin-top: 28px;
-  font-size: 24px;
+  margin-top: 20px;
+  font-size: 22px;
 }
 
-.projectPlaceholderImg {
-  width: 100px;
-  height: 100px;
+.experienceTitle {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.hobbiesTitle {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.nameTitle {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+
+.experienceImg {
+  width: 80px;
+  height: 80px;
   background-color: #444;
   float: left;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.projectImg {
+  width: 100px;
+  background-color: #444;
+  float: left;
+  margin-right: 25px;
+  margin-bottom: 25px;
 }
 
 .ant-layout-footer {
@@ -123,5 +149,7 @@ footer span {
 }
 
 p {
+  font-size: 16px;
   color: #222;
+  // text-align:justify
 }
