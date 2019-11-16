@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.scss";
 
-class NamePage extends Component {
+class HomePage extends Component {
 
   public render() {
     return (
@@ -52,4 +52,4 @@ class NamePage extends Component {
   }
 }
 
-export default NamePage;
+export default HomePage;

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 import ExperiencePage from "./ExperiencePage";
 import HobbiesPage from "./HobbiesPage";
-import NamePage from "./NamePage";
+import HomePage from "./HomePage";
 import ProjectsPage from "./ProjectsPage";
 
 import "./App.scss";
@@ -43,7 +43,7 @@ class App extends Component {
             </Menu>
           </Header>
           <Content style={{minHeight: "calc(100vh - 134px)" }}>
-            <Route exact path={`${process.env.PUBLIC_URL}/`} component={NamePage} />
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomePage} />
             <Route path={`${process.env.PUBLIC_URL}/experience`} component={ExperiencePage} />
             <Route path={`${process.env.PUBLIC_URL}/projects`} component={ProjectsPage} />
             <Route path={`${process.env.PUBLIC_URL}/hobbies`} component={HobbiesPage} />
