@@ -9,20 +9,20 @@ class ExperiencePage extends Component {
         <h1>Industry Research</h1>
         <h2 className="experienceTitle"> ASAPP: Natural Language Processing Research Intern (2019)</h2>
         <img src={require('../images/asapp.jpg')} className="experienceImg" />
-        <p className="projectText"> Worked to compress and accelerate the running of large language models such as BERT and Transformer-XL using various techniques such as distillation and quantization.
+        <p className="projectText"> I worked to compress and accelerate the running of large language models such as BERT and Transformer-XL using various techniques such as distillation and quantization. Compressing such large and performant models reduces cost and increases accuracy.
         </p>
         <br></br>
 
         <h2 className="experienceTitle">IBM: Rearch Intern (2018) </h2>
         <img src={require('../images/ibm.png')} className="experienceImg" />
-        <p className="projectText"> A few other interns and I designed a directed random geometric graph model that has many desirable properties such as the small world property and a high clustering coefficient. The theoretical aspects used mathematical tools from graph theory, combinatorics, and probability. The applications were discovered using data analysis techniques.
+        <p className="projectText"> A few other interns and I designed the Directed Random Geometric Graph, which has many desirable properties such as the small world property and a high clustering coefficient. Our works used tools from graph theory, combinatorics, and probability. We also applied our model to real-world data and found it worked well.
         </p>
         <br></br>
 
         <h1>Software Engineering</h1>
         <h2 className="experienceTitle"> Microsoft: Software Engineering Intern (2018) </h2>
         <img src={require('../images/msft.png')} className="experienceImg" />
-        <p className="projectText"> Added feature to export artifacts and other model metadata to a PowerBI Dashboard. To do this, I wrote backend transpilation code in C# and modified the frontend using Angular. I also helped extend the azureml Python SDK.
+        <p className="projectText"> My project was to export artifacts and other model metadata to a PowerBI Dashboard for use by managers of data science teams. To do this, I wrote backend transpilation code in C# and modified the frontend using Angular. I also helped to improve artifect exporting with the azureml Python SDK.
         </p>
         <br></br>
 
@@ -35,7 +35,7 @@ class ExperiencePage extends Component {
 
         <h2 className="experienceTitle">Microsoft: Machine Learning Intern (2017) </h2>
         <img src={require('../images/msft.png')} className="experienceImg" />
-        <p className="projectText"> Used Tensorflow and CNTK deep learning infrastructures to implement LeNet on German traffic sign data (GTSRB) to compare performance, add a tutorial to CNTK, and discover bugs in CNTK.
+        <p className="projectText"> I used Tensorflow and CNTK deep learning infrastructures to implement LeNet on German traffic sign data (GTSRB) to compare performance, add a tutorial to CNTK, and discover bugs in CNTK.
         </p>
         <br></br>
 

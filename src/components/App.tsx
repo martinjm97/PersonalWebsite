@@ -4,9 +4,9 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 import ExperiencePage from "./ExperiencePage";
+import HobbiesPage from "./HobbiesPage";
 import NamePage from "./NamePage";
 import ProjectsPage from "./ProjectsPage";
-import HobbiesPage from "./HobbiesPage";
 
 import "./App.scss";
 
@@ -29,24 +29,24 @@ class App extends Component {
                   {[window.location.pathname === "/" ? "name" : window.location.pathname.split("/").join("")]}
                 mode="horizontal" className="Menu" style={{ lineHeight: "40px" }}>
               <Menu.Item key="name">
-                <Link to="/">Jesse</Link>
+                <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
               </Menu.Item>
               <Menu.Item key="experience">
-                <Link to="/experience">Experience</Link>
+                <Link to={`${process.env.PUBLIC_URL}/experience`}>Experience</Link>
               </Menu.Item>
               <Menu.Item key="projects">
-                <Link to="/projects">Projects</Link>
+                <Link to={`${process.env.PUBLIC_URL}/projects`}>Projects</Link>
               </Menu.Item>
               <Menu.Item key="hobbies">
-                <Link to="/hobbies">Hobbies</Link>
+                <Link to={`${process.env.PUBLIC_URL}/hobbies`}>Hobbies</Link>
               </Menu.Item>
             </Menu>
           </Header>
           <Content style={{minHeight: "calc(100vh - 134px)" }}>
-            <Route exact path="/" component={NamePage} />
-            <Route path="/experience" component={ExperiencePage} />
-            <Route path="/projects" component={ProjectsPage} />
-            <Route path="/hobbies" component={HobbiesPage} />
+            <Route exact path={`${process.env.PUBLIC_URL}/`} component={NamePage} />
+            <Route path={`${process.env.PUBLIC_URL}/experience`} component={ExperiencePage} />
+            <Route path={`${process.env.PUBLIC_URL}/projects`} component={ProjectsPage} />
+            <Route path={`${process.env.PUBLIC_URL}/hobbies`} component={HobbiesPage} />
           </Content>
           <Footer style={{ textAlign: "center" }}>
             <span><a href="jmmichel@csail.mit.edu"><Icon type="mail" /></a></span>
