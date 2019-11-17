@@ -7,7 +7,7 @@ class ProjectPage extends Component {
     return (
       <div className="Page">
         <h1>Projects</h1>
-        <h2 className="projectTitle"> 1DB: One Database to rule them all</h2>
+        <h2 className="projectTitle"> 1DB: One database to rule them all</h2>
         <img src={require('../images/1db.jpg')} className="projectImg" />
         <p className="projectText"> 1DB is a simple database auto-selector that makes the decision of whether to use Druid or MySQL. We set up a metaschema for data, meaning that we accept queries and then direct them to the appropriate database. The vision is to create a high-level schema for incoming data.
         <br></br><br></br>

@@ -20,7 +20,7 @@ class HobbiesPage extends Component {
         <br></br>
         <h2 className="hobbiesTitle">Running</h2>
         <img src={require('../images/running.jpg')} className="hobbiesImg" />
-        <p> Another long-term hobby of mine is long distance running. Some of the highlights of my running experiences were the Hyannis Marathon, which has a beautiful view of Cape Cod, and the local Cambridge Half Marathon.
+        <p> Another long-term hobby is long distance running. Some of highlights were the Hyannis Marathon, which has a beautiful view of Cape Cod, and the local Cambridge Half Marathon.
         </p>
       </div>
       );
