@@ -11,7 +11,7 @@ class HomePage extends Component {
         <p> I am a master's student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a> and working with grad student <a href="https://www.ben-sherman.net/" >Ben Sherman</a>. My research uses aspects of programming languages, machine learning, and math to build faster and more accurate ways of computing. Currently, my research focuses on using automatic differentiation to improve the performance of exact real arithmetic.
         </p>
 
-        <p> I graduated from MIT in 2019 with a Bachelor of Science in Pure Mathematics and Computer Science with a minor in Philosophy. A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion. As an undergraduate, I competed in a number of hackathons and worked at companies such as IBM Research, Google, and Microsoft.
+        <p> I graduated from MIT in 2019 with a Bachelor of Science in Pure Mathematics and Computer Science with a minor in Philosophy. A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion. As an undergraduate, I competed in hackathons--winning first overall at HackMIT 2017 and 2018, conducted research and presented my work including winning the PLDI student research competition, and worked at companies such as IBM Research, Google, and Microsoft.
         </p>
 
         <br></br>
