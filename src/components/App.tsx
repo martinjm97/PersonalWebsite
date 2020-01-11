@@ -33,7 +33,7 @@ class App extends Component {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'UA-156016910-1'});
+              gtag('config', 'UA-156016910-1');
             `}
           </script>
         </Helmet>
