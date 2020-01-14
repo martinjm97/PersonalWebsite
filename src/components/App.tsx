@@ -35,7 +35,7 @@ class App extends Component {
           <meta name="keywords" content="Jesse Michel, Jesse, Michel, MIT, Computer Science, Math, Programming Languages, Machine Learning" />
           <meta
             name="description"
-            content="A brief overview of some of my research, industry experience, projects, and hobbies. My research uses aspects of programming languages, machine learning, and math to build faster and more accurate ways of computing."
+            content="A brief overview of some of Jesse Michel's research, industry experience, projects, and hobbies. My research uses aspects of programming languages, machine learning, and math to build faster and more accurate ways of computing."
           />
           {/* Global site tag (gtag.js) - Google Analytics --> */}
           <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156016910-1"></script>
