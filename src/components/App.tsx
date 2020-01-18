@@ -47,6 +47,7 @@ class App extends Component {
               gtag('config', 'UA-156016910-1');
             `}
           </script>
+          <meta name="google-site-verification" content="Q6HP24_lqZtn3xbiSsuQi0yPtsMTQxHuuhFxQ34FdJU" />
         </Helmet>
 
         {/* Set up all of the routing */}
