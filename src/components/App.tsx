@@ -1,7 +1,6 @@
 import { Icon, Layout } from "antd";
 import Menu from "antd/es/menu";
 import React, { Component } from "react";
-import ReactGA from "react-ga";
 import {Helmet} from "react-helmet";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
@@ -11,10 +10,6 @@ import HomePage from "./HomePage";
 import ProjectsPage from "./ProjectsPage";
 
 import "./App.scss";
-
-// Set up Google Analytics
-const trackingId = "UA-156016910-1";
-ReactGA.initialize(trackingId);
 
 const { Header, Content, Footer } = Layout;
 
@@ -47,7 +42,6 @@ class App extends Component {
               gtag('config', 'UA-156016910-1');
             `}
           </script>
-          <meta name="google-site-verification" content="Q6HP24_lqZtn3xbiSsuQi0yPtsMTQxHuuhFxQ34FdJU" />
         </Helmet>
 
         {/* Set up all of the routing */}
