@@ -26,7 +26,7 @@ class ProjectPage extends Component {
         It provides real-time visualizations as the network is training,
         has detailed descriptions of various properties of deep neural networks,
         and has handy features like automatic code generation and link sharing
-        (<a href="https://math.mit.edu/ennui/">Website</a>).
+        (<a href="https://math.mit.edu/ennui/">Website</a>)(<a href="https://github.com/martinjm97/ENNUI">GitHub</a>).
         <br></br><br></br>
         Awards: 1st Place at HackMIT 2018, Best Use of Deep Neural Networks (<a href="https://thetech.com/2018/09/17/hack-mit-2018">Article</a>) (<a href="https://devpost.com/software/ennui">Devpost</a>).
         </p>
