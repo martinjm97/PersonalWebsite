@@ -8,14 +8,15 @@ class HomePage extends Component {
       <div className="Page">
         <h1 className="mainTitle">Jesse Michel</h1>
         <img src={require("../images/me_suite.jpg")} className="placeholderPortrait" />
-        <p> I am a master's student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a> and working with grad student <a href="https://www.ben-sherman.net/" >Ben Sherman</a>. My research uses aspects of programming languages, machine learning, and math to build faster and more accurate ways of computing. Currently, my research focuses on using automatic differentiation to improve the performance of exact real arithmetic.
+        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research uses aspects of programming languages, machine learning, and math to build faster and more accurate ways of computing. My current research focuses on speeding up numerical computations both sound (such as arbitrary-precision arithmetic) and unsound (floating point) using sensitivity analyses. 
         </p>
 
-        <p> I graduated from MIT in 2019 with a
-        Bachelor of Science in Pure Mathematics and Computer Science with a minor in Philosophy.
+        <p> I received my MEng in Electrical Engineering and Computer Science from MIT in 2020 with a thesis titled <i>Sensitivities for Guiding Refinement in Arbitrary-Precision Arithmetic</i>, 
+        where I use derivatives of interval code to create guide precision refinement, culminating in the critical path algorithm.  
+        I completed my undergraduate at MIT in 2019, with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
         A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion.
-        As an undergraduate, I competed in hackathons--winning first overall at HackMIT 2017 and 2018,
-        conducted research and presented my work including winning the PLDI student research
+        As an undergraduate, I competed in hackathons -- winning first overall at HackMIT 2017 and 2018,
+        conducted research and presented my work including winning the PLDI undergraduate student research
         competition, and worked at companies such as IBM Research, Google, and Microsoft.
         </p>
 

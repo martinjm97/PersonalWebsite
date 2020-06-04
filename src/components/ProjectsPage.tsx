@@ -35,7 +35,7 @@ class ProjectPage extends Component {
         <img src={require("../images/tap.jpg")} className="projectImg" />
         <p className="projectText"> Tap is a typed modernization of Python's argparse library.
         Tap provides the following benefits: static type checking, code completion, and source code navigation.
-        It also includes useful experiment-tracking features (<a href="https://github.com/swansonk14/typed-argument-parser">GitHub</a>).
+        It also includes useful experiment-tracking features (<a href="https://github.com/swansonk14/typed-argument-parser">GitHub</a>)(<a href="https://docs.google.com/presentation/d/1AirN6gpiq4P1L8K003EsXmobVxP3A4AVEIR2KOEQN7Y/edit#slide=id.p1">Poster</a>).
         </p>
         <br></br><br></br>
 
