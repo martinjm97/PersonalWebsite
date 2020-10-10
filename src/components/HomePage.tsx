@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./App.scss";
+import MathJax from "react-mathjax";
 
 class HomePage extends Component {
 
@@ -8,11 +9,11 @@ class HomePage extends Component {
       <div className="Page">
         <h1 className="mainTitle">Jesse Michel</h1>
         <img src={require("../images/me_suite.jpg")} className="placeholderPortrait" />
-        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research uses aspects of programming languages, machine learning, and math to build faster and more accurate ways of computing. My current research focuses on speeding up numerical computations both sound (such as arbitrary-precision arithmetic) and unsound (floating point) using sensitivity analyses.
+        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
         </p>
 
         <p> I received my Master's of Engineering in Electrical Engineering and Computer Science from MIT in 2020 with a thesis titled <i>Sensitivities for Guiding Refinement in Arbitrary-Precision Arithmetic</i>,
-        where I use derivatives of interval code to create guide precision refinement, culminating in the critical path algorithm.
+        where I used derivatives of interval code to create guide precision refinement, culminating in the critical path algorithm.
         I completed my undergraduate at MIT in 2019, with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
         A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion.
         As an undergraduate, I competed in hackathons -- winning first overall at HackMIT 2017 and 2018,
@@ -22,6 +23,16 @@ class HomePage extends Component {
 
         <br></br>
         <h1>Research</h1>
+        <MathJax.Provider>
+          <h2 className="nameTitle"><MathJax.Node inline formula={'\\lambda_S'} />: Computable semantics for differentiable programming
+with higher-order functions and datatypes</h2>
+        </MathJax.Provider>
+        <img src={require("../images/diff_prob.png")} className="projectImg" />
+        <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
+        [conditionally accepted]Principles of Programming Languages 2020 (<a href="https://arxiv.org/abs/2007.08017">Preprint</a>)
+        </p>
+        <br></br><br></br>
+
         <h2 className="nameTitle">NAP: Noise-Based Sensitivity Analysis for Programs</h2>
         <img src={require("../images/wax.png")} className="projectImg" />
         <p className="projectText"> Jesse Michel*, Sahil Verma*, Benjamin Sherman, Michael Carbin<br></br>
