@@ -9,7 +9,7 @@ class HomePage extends Component {
       <div className="Page">
         <h1 className="mainTitle">Jesse Michel</h1>
         <img src={require("../images/me_suite.jpg")} className="placeholderPortrait" />
-        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
+        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin and funded by the Ashar Aziz Presidential Fellowship</a>. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
         </p>
 
         <p> I received my Master's of Engineering in Electrical Engineering and Computer Science from MIT in 2020 with a thesis titled <i>Sensitivities for Guiding Refinement in Arbitrary-Precision Arithmetic</i>,
@@ -29,7 +29,7 @@ with higher-order functions and datatypes</h2>
         </MathJax.Provider>
         <img src={require("../images/diff_prob.png")} className="projectImg" />
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
-        [conditionally accepted]Principles of Programming Languages 2020 (<a href="https://arxiv.org/abs/2007.08017">Preprint</a>)
+        Principles of Programming Languages 2020 (<a href="https://arxiv.org/abs/2007.08017">Preprint</a>)
         </p>
         <br></br><br></br>
 
