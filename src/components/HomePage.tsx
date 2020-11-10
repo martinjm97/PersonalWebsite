@@ -9,7 +9,7 @@ class HomePage extends Component {
       <div className="Page">
         <h1 className="mainTitle">Jesse Michel</h1>
         <img src={require("../images/me_suite.jpg")} className="placeholderPortrait" />
-        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin and funded by the Ashar Aziz Presidential Fellowship</a>. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
+        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a> and funded by the Ashar Aziz Presidential Fellowship. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
         </p>
 
         <p> I received my Master's of Engineering in Electrical Engineering and Computer Science from MIT in 2020 with a thesis titled <i>Sensitivities for Guiding Refinement in Arbitrary-Precision Arithmetic</i>,
