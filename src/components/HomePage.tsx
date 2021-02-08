@@ -49,7 +49,7 @@ with higher-order functions and datatypes</h2>
 
         <h2 className="nameTitle">Directed Random Geometric Graphs </h2>
         <img src={require("../images/drgg.png")} className="projectImg" />
-        <p className="projectText"> Jesse Michel, Sushruth Reddy, Rikhav Shah, Sandeep Silwal, Ramis Movassagh <br></br>
+        <p className="projectText"> Jesse Michel*, Sushruth Reddy*, Rikhav Shah*, Sandeep Silwal*, Ramis Movassagh <br></br>
         Journal of Complex Networks 2019 (<a href="https://doi.org/10.1093/comnet/cnz006">Paper</a>)
         </p>
 
