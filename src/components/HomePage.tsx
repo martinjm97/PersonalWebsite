@@ -23,13 +23,20 @@ class HomePage extends Component {
 
         <br></br>
         <h1>Research</h1>
+        <h2 className="nameTitle">Systematically Differentiating Parametric Discontinuities</h2>
+        <img src={require("../images/teg_icon.png")} className="projectImg" />
+        <p className="projectText"> Sai Praveen Bangaru*, Jesse Michel*, Kevin Mu, Gilbert Bernstein, Tzu-Mao Li, Jonathan Ragan-Kelley<br></br>
+        SIGGRAPH 2021 (<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/teg-2021.pdf">Paper</a>)(<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/">Website</a>)
+        </p>
+        <br></br><br></br>
+
         <MathJax.Provider>
           <h2 className="nameTitle"><MathJax.Node inline formula={'\\lambda_S'} />: Computable semantics for differentiable programming
 with higher-order functions and datatypes</h2>
         </MathJax.Provider>
         <img src={require("../images/diff_prob.png")} className="projectImg" />
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
-        Principles of Programming Languages 2020 (<a href="https://arxiv.org/abs/2007.08017">Preprint</a>)
+        Principles of Programming Languages 2020 (<a href="https://dl.acm.org/doi/10.1145/3434284">Paper</a>)
         </p>
         <br></br><br></br>
 
@@ -45,7 +52,7 @@ with higher-order functions and datatypes</h2>
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
         Distinguished Paper Award -- International Conference on Functional Programming 2019 (<a href="https://doi.org/10.1145/3341703">Paper</a>)
         </p>
-        <br></br>
+        <br></br><br></br>
 
         <h2 className="nameTitle">Directed Random Geometric Graphs </h2>
         <img src={require("../images/drgg.png")} className="projectImg" />
