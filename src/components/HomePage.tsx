@@ -13,8 +13,7 @@ class HomePage extends Component {
         </p>
 
         <p> I received my Master's of Engineering in Electrical Engineering and Computer Science from MIT in 2020 with a thesis titled <i>Sensitivities for Guiding Refinement in Arbitrary-Precision Arithmetic</i>,
-        where I used derivatives of interval code to create guide precision refinement, culminating in the critical path algorithm.
-        I completed my undergraduate at MIT in 2019, with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
+        where I used derivatives of interval code to build an algorithm for guiding precision refinement. I completed my undergraduate at MIT in 2019, with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
         A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion.
         As an undergraduate, I competed in hackathons -- winning first overall at HackMIT 2017 and 2018,
         conducted research and presented my work including winning the PLDI undergraduate student research
