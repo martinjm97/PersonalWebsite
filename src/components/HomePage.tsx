@@ -12,12 +12,9 @@ class HomePage extends Component {
         <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a> and funded by the Ashar Aziz Presidential Fellowship. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
         </p>
 
-        <p> I received my Master's of Engineering in Electrical Engineering and Computer Science from MIT in 2020 with a thesis titled <i>Sensitivities for Guiding Refinement in Arbitrary-Precision Arithmetic</i>,
-        where I used derivatives of interval code to build an algorithm for guiding precision refinement. I completed my undergraduate at MIT in 2019, with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
+        <p> I completed my undergraduate at MIT in 2019, with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
         A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion.
-        As an undergraduate, I competed in hackathons -- winning first overall at HackMIT 2017 and 2018,
-        conducted research and presented my work including winning the PLDI undergraduate student research
-        competition, and worked at companies such as IBM Research, Google, and Microsoft.
+        I also worked in industry at companies such as IBM Research, Google, and Microsoft.
         </p>
 
         <br></br>
@@ -36,6 +33,13 @@ with higher-order functions and datatypes</h2>
         <img src={require("../images/diff_prob.png")} className="projectImg" />
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
         Principles of Programming Languages 2020 (<a href="https://dl.acm.org/doi/10.1145/3434284">Paper</a>)
+        </p>
+        <br></br><br></br>
+
+        <h2 className="nameTitle">Sensitivities for Guiding Refinement in Arbitrary-Precision Arithmetic</h2>
+        <img src={require("../images/master_thesis.png")} className="projectImg" />
+        <p className="projectText"> Jesse Michel<br></br>
+        Thesis supervised by Ben Sherman and advised by Michael Carbin 2020 (<a href="https://dspace.mit.edu/bitstream/handle/1721.1/127465/1192966915-MIT.pdf?sequence=1&isAllowed=y">Thesis</a>)
         </p>
         <br></br><br></br>
 
@@ -78,6 +82,13 @@ with higher-order functions and datatypes</h2>
         I designed exam questions, improved the course website CatSoop, graded exams,
         and helped students in office hours (<a href="https://py.mit.edu/">Course</a>).
         </p>
+      
+        <br></br><br></br>
+        <h1>Awards</h1>
+        Gold in the undergraduate student research competition at PLDI 2019 (<a href="https://src.acm.org/binaries/content/assets/src/2020/jesse-michel-.pdf">Paper</a>)<br></br>
+        First Place Overall at HackMIT 2018 (<a href="https://devpost.com/software/ennui">Ennui</a>)<br></br>
+        First Place Overall at HackMIT 2017 (<a href="https://devpost.com/software/pixelator">Pixelator</a>)<br></br>
+        <br></br><br></br><br></br>
       </div>
     );
   }
