@@ -12,7 +12,7 @@ class HomePage extends Component {
         <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a> and funded by the Ashar Aziz Presidential Fellowship. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
         </p>
 
-        <p> I completed my undergraduate at MIT in 2019, with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
+        <p> I completed my undergraduate at MIT in 2019 with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
         A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion.
         I also worked in industry at companies such as IBM Research, Google, and Microsoft.
         </p>
