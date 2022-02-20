@@ -9,10 +9,10 @@ class HomePage extends Component {
       <div className="Page">
         <h1 className="mainTitle">Jesse Michel</h1>
         <img src={require("../images/me_suite.jpg")} className="placeholderPortrait" />
-        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a> and funded by the Ashar Aziz Presidential Fellowship. My research uses programming language semantics with machine learning to build uniquely expressive learned systems.
+        <p> I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research uses programming language semantics with machine learning to build expressive learned systems.
         </p>
 
-        <p> I completed my undergraduate at MIT in 2019 with a BS in Pure Mathematics and Computer Science with a minor in Philosophy.
+        <p> I completed my undergraduate at MIT in 2019 with a BS in Pure Mathematics and Computer Science with a minor in Philosophy. I completed my MEng at MIT studying automatic differentiation of arbitrary-precision arithmetic for performance.
         A few of my favorite classes were Topology, Graduate Algorithms, and Philosophy of Religion.
         I also worked in industry at companies such as IBM Research, Google, and Microsoft.
         </p>
@@ -22,13 +22,12 @@ class HomePage extends Component {
         <h2 className="nameTitle">Systematically Differentiating Parametric Discontinuities</h2>
         <img src={require("../images/teg_icon.png")} className="projectImg" />
         <p className="projectText"> Sai Praveen Bangaru*, Jesse Michel*, Kevin Mu, Gilbert Bernstein, Tzu-Mao Li, Jonathan Ragan-Kelley<br></br>
-        SIGGRAPH 2021 (<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/teg-2021.pdf">Paper</a>)(<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/">Website</a>)
+        SIGGRAPH 2021 (<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/teg-2021.pdf">Paper</a>)(<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/">Website</a>)(<a href="https://mit.zoom.us/rec/play/AviQ8S0vTPm0WuopMPnSOZMuUdA-gdtmOkrkXosRrH3Y3BdJzKVGouIJJEmITvA9XymXIFWGcG3wlpym.aro759kUimJX91Rh?autoplay=true&continueMode=true&startTime=1626966335000">Video</a>)
         </p>
         <br></br><br></br>
 
         <MathJax.Provider>
-          <h2 className="nameTitle"><MathJax.Node inline formula={'\\lambda_S'} />: Computable semantics for differentiable programming
-with higher-order functions and datatypes</h2>
+          <h2 className="nameTitle"><MathJax.Node inline formula={'\\lambda_S'} />: Computable semantics for differentiable programming with higher-order functions and datatypes</h2>
         </MathJax.Provider>
         <img src={require("../images/diff_prob.png")} className="projectImg" />
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
@@ -53,7 +52,7 @@ with higher-order functions and datatypes</h2>
         <h2 className="nameTitle">Sound and Robust Solid Modeling via Exact Real Arithmetic and Continuity</h2>
         <img src={require("../images/icfp.png")} className="projectImg" />
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
-        Distinguished Paper Award -- International Conference on Functional Programming 2019 (<a href="https://doi.org/10.1145/3341703">Paper</a>)
+        International Conference on Functional Programming 2019 (<a href="https://doi.org/10.1145/3341703">Paper</a>)
         </p>
         <br></br><br></br>
 
@@ -85,7 +84,9 @@ with higher-order functions and datatypes</h2>
       
         <br></br><br></br>
         <h1>Awards</h1>
+        Ashar Aziz Presidential Fellowship 2020 <br></br>
         Gold in the undergraduate student research competition at PLDI 2019 (<a href="https://src.acm.org/binaries/content/assets/src/2020/jesse-michel-.pdf">Paper</a>)<br></br>
+        Distinguished Paper Award at ICFP 2019 <br></br>
         First Place Overall at HackMIT 2018 (<a href="https://devpost.com/software/ennui">Ennui</a>)<br></br>
         First Place Overall at HackMIT 2017 (<a href="https://devpost.com/software/pixelator">Pixelator</a>)<br></br>
         <br></br><br></br><br></br>
