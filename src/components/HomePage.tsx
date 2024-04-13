@@ -76,7 +76,7 @@ class HomePage extends Component {
           Journal of Complex Networks 2019 (<a href="https://doi.org/10.1093/comnet/cnz006">Paper</a>)
         </p>
 
-        <br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br>
         <h1>Teaching</h1>
         <h2 className="nameTitle">Programming Language Design</h2>
         {/* spring 2023 */}
