@@ -1,7 +1,9 @@
-import { Icon, Layout } from "antd";
-import Menu from "antd/es/menu";
+import 'antd/dist/reset.css';
+
+import { Layout, Menu } from "antd";
+import Icon from '@ant-design/icons';
 import React, { Component } from "react";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Link, Route } from "react-router-dom";
 
 import ExperiencePage from "./ExperiencePage";
@@ -15,16 +17,17 @@ const { Header, Content, Footer } = Layout;
 
 class App extends Component {
 
-  public handleClick = (e: any) => {
-    this.setState({
-      current: e.key,
-    });
-  }
+  public handleClick = (e: any) => { this.setState({ activeKey: e.key }); }
+
+  state = { activeKey: 'name' };
+
+  handleMenuSelect = (key: any) => { this.setState({ activeKey: key.key }); };
 
   public render() {
+    const { activeKey } = this.state;
+
     return (
       <div>
-        {/* Set the head using Helmet */}
         <Helmet>
           <title>Jesse Michel's Personal Webite</title>
           <meta name="keywords" content="Jesse Michel, Jesse, Michel, MIT, Computer Science, Math, Programming Languages, Machine Learning" />
@@ -47,10 +50,9 @@ class App extends Component {
         {/* Set up all of the routing */}
         <Router>
           <Layout>
-            <Header style={{position: "fixed", width: "100%"}}>
-              <Menu onClick={this.handleClick} selectedKeys=
-                    {[window.location.pathname === "/" ? "name" : window.location.pathname.split("/").join("")]}
-                  mode="horizontal" className="Menu" style={{ lineHeight: "40px" }}>
+            <Header style={{ position: "fixed", width: "100%" }}>
+              <Menu onClick={this.handleClick} onSelect={this.handleMenuSelect} selectedKeys={[activeKey.toString()]}
+                mode="horizontal" className="Menu" style={{ lineHeight: "40px" }}>
                 <Menu.Item key="name">
                   <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
                 </Menu.Item>
@@ -65,7 +67,7 @@ class App extends Component {
                 </Menu.Item>
               </Menu>
             </Header>
-            <Content style={{minHeight: "calc(100vh - 134px)" }}>
+            <Content style={{ minHeight: "calc(100vh - 134px)" }}>
               <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomePage} />
               <Route path={`${process.env.PUBLIC_URL}/experience`} component={ExperiencePage} />
               <Route path={`${process.env.PUBLIC_URL}/projects`} component={ProjectsPage} />
