@@ -61,14 +61,14 @@ class HomePage extends Component {
         <p className="projectText"> Jesse Michel*, Sahil Verma*, Benjamin Sherman, Michael Carbin<br></br>
           Workshop on Approximate Computing Across the Stack (WAX) 2019 (<a href="http://approximate.computer/wax2019/papers/michel.pdf">Summary</a>)
         </p>
-        <br></br><br></br>
+        <br></br><br></br><br></br>
 
         <h2 className="nameTitle">Sound and Robust Solid Modeling via Exact Real Arithmetic and Continuity</h2>
         <img src={require("../images/icfp.png")} className="projectImg" />
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
           International Conference on Functional Programming 2019 (<a href="https://doi.org/10.1145/3341703">Paper</a>)
         </p>
-        <br></br><br></br>
+        <br></br><br></br><br></br>
 
         <h2 className="nameTitle">Directed Random Geometric Graphs </h2>
         <img src={require("../images/drgg.png")} className="projectImg" />
@@ -80,11 +80,12 @@ class HomePage extends Component {
         <h1>Teaching</h1>
         <h2 className="nameTitle">Programming Language Design</h2>
         {/* spring 2023 */}
-        <img src={require("../images/6003.jpg")} className="projectImg" />
+        <img src={require("../images/pld.png")} className="projectImg" />
         <p className="projectText"> As a graduate teaching assistant, I helped develop a new class with Jack Feser, Michael Carbin, and Armando Solar-Lezama.
           My duties involved helping to design course materials, holding office hours, and grading (<a href="https://people.csail.mit.edu/feser/pld-s23/">Course</a>).
         </p>
-        <br></br>
+
+        <br></br><br></br>
 
         <h2 className="nameTitle">Signal Processing</h2>
         <img src={require("../images/6003.jpg")} className="projectImg" />
