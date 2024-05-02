@@ -25,6 +25,14 @@ class HomePage extends Component {
 
         <br></br>
         <h1>Research</h1>
+        <h2 className="nameTitle">Learning to Compile Programs to Neural Networks</h2>
+        <img src={require("../images/learning_to_compile.png")} className="projectImg" />
+        <p className="projectText">Logan Weber, Jesse Michel, Alex Renda, Michael Carbin<br></br>
+          ICML 2024.
+          {/* (<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/teg-2021.pdf">Paper</a>) */}
+          {/* (<a href="https://mit.zoom.us/rec/play/AviQ8S0vTPm0WuopMPnSOZMuUdA-gdtmOkrkXosRrH3Y3BdJzKVGouIJJEmITvA9XymXIFWGcG3wlpym.aro759kUimJX91Rh?autoplay=true&continueMode=true&startTime=1626966335000">Video</a>) */}
+        </p>
+        <br></br><br></br><br></br>
         <h2 className="nameTitle">Distributions for Compositionally Differentiating Parametric Discontinuities</h2>
         <img src={require("../images/potto_icon.png")} className="projectImg" />
         <p className="projectText"> Jesse Michel, Kevin Mu, Xuanda Yang, Sai Bangaru, Elias Rojas Collins, Gilbert Bernstein, Jonathan Ragan-Kelley, Michael Carbin, Tzu-Mao Li<br></br>
