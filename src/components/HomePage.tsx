@@ -10,7 +10,7 @@ class HomePage extends Component {
         <h1 className="mainTitle">Jesse Michel</h1>
         <img src={require("../images/jesse_michel_headshot_2023.jpeg")} className="placeholderPortrait" />
         <p>
-          I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research focuses on problems in computer graphics, physical simulation, and scientific computing. I approach these problems by designing programming languages with expressive primitives such as integration and with support automatic differentiation.
+          I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research focuses on problems in computer graphics, physical simulation, and scientific computing. I approach these problems by designing programming languages with expressive primitives such as integration and with support for automatic differentiation.
         </p>
 
         <p>
