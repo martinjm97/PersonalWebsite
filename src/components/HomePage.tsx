@@ -21,6 +21,7 @@ class HomePage extends Component {
         <p>
           I've enjoyed my time interning in industry at companies working on network theory at IBM Research, LLMs at ASAPP Research, search at Google, and machine learning in the cloud at Microsoft.
           I enjoy maintaining a <a href="https://github.com/swansonk14/typed-argument-parser">typed argument parser</a> with my friend <a href="https://swansonkyle.com">Kyle</a> and a wonderful community of open-source contributors. The library has been used widely in the machine learning community and has been downloaded millions of times.
+          See my <a href="https://github.com/martinjm97">GitHub</a> from more projects.
         </p>
 
         <br></br>
