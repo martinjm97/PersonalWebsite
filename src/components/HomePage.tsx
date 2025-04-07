@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./App.scss";
-import MathJax from "react-mathjax";
+import { InlineMath } from 'react-katex';
+import 'katex/dist/katex.min.css';
 
 class HomePage extends Component {
 
@@ -21,11 +22,18 @@ class HomePage extends Component {
         <p>
           I've enjoyed my time interning in industry at companies working on network theory at IBM Research, LLMs at ASAPP Research, search at Google, and machine learning in the cloud at Microsoft.
           I enjoy maintaining a <a href="https://github.com/swansonk14/typed-argument-parser">typed argument parser</a> with my friend <a href="https://swansonkyle.com">Kyle</a> and a wonderful community of open-source contributors. The library has been used widely in the machine learning community and has been downloaded millions of times.
-          See my <a href="https://github.com/martinjm97">GitHub</a> from more projects.
         </p>
 
         <br></br>
         <h1>Research</h1>
+        <h2 className="nameTitle">Semantics of Integrating and Differentiating Singularities</h2>
+        <img src={require("../images/singularities.png")} className="projectImg" />
+        <p className="projectText">Jesse Michel, Wonyeol Lee, Hongseok Yang<br></br>
+          PLDI 2025.
+          {/* (<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/teg-2021.pdf">Paper</a>) */}
+          {/* (<a href="https://mit.zoom.us/rec/play/AviQ8S0vTPm0WuopMPnSOZMuUdA-gdtmOkrkXosRrH3Y3BdJzKVGouIJJEmITvA9XymXIFWGcG3wlpym.aro759kUimJX91Rh?autoplay=true&continueMode=true&startTime=1626966335000">Video</a>) */}
+        </p>
+        <br></br><br></br><br></br>
         <h2 className="nameTitle">Learning to Compile Programs to Neural Networks</h2>
         <img src={require("../images/learning_to_compile.png")} className="projectImg" />
         <p className="projectText">Logan Weber, Jesse Michel, Alex Renda, Michael Carbin<br></br>
@@ -49,9 +57,7 @@ class HomePage extends Component {
         </p>
         <br></br><br></br>
 
-        <MathJax.Provider>
-          <h2 className="nameTitle"><MathJax.Node inline formula={'\\lambda_S'} />: Computable semantics for differentiable programming with higher-order functions and datatypes</h2>
-        </MathJax.Provider>
+        <h2 className="nameTitle"><InlineMath math={'\\lambda_S'} />: Computable semantics for differentiable programming with higher-order functions and datatypes</h2>
         <img src={require("../images/diff_prob.png")} className="projectImg" />
         <p className="projectText"> Benjamin Sherman, Jesse Michel, Michael Carbin<br></br>
           Principles of Programming Languages 2020 (<a href="https://dl.acm.org/doi/10.1145/3434284">Paper</a>)
@@ -122,7 +128,12 @@ class HomePage extends Component {
         Distinguished Paper Award at ICFP 2019 <br></br>
         First Place Overall at HackMIT 2018 (<a href="https://devpost.com/software/ennui">Ennui</a>)<br></br>
         First Place Overall at HackMIT 2017 (<a href="https://devpost.com/software/pixelator">Pixelator</a>)<br></br>
-        <br></br><br></br><br></br>
+        <br></br><br></br>
+        <h1>Contact</h1>
+        <p>Email: jmmichel at my institution</p>
+        <p>Twitter: <a href="https://x.com/JesseMMichel">@JesseMMichel</a></p>
+        <p>Github: <a href="https://github.com/martinjm97">martinjm97</a></p>
+        <br></br>
       </div>
     );
   }

@@ -4,7 +4,7 @@ import { Layout, Menu } from "antd";
 import Icon from '@ant-design/icons';
 import React, { Component } from "react";
 import { Helmet } from "react-helmet";
-import { BrowserRouter as Router, Link, Route } from "react-router-dom";
+import { BrowserRouter as Router, Link, Routes, Route } from "react-router-dom";
 
 import ExperiencePage from "./ExperiencePage";
 import HobbiesPage from "./HobbiesPage";
@@ -30,7 +30,7 @@ class App extends Component {
       <div>
         <Helmet>
           <title>Jesse Michel's Personal Webite</title>
-          <meta name="keywords" content="Jesse Michel, Jesse, Michel, MIT, Computer Science, Math, Programming Languages, Machine Learning" />
+          <meta name="keywords" content="Jesse Michel, Jesse, Michel, MIT, Computer Science, Math, Programming Languages, Machine Learning, Computer Graphics" />
           <meta
             name="description"
             content="A brief overview of some of Jesse Michel's research, industry experience, projects, and hobbies. My research uses aspects of programming languages, machine learning, and math to build faster and more accurate ways of computing."
@@ -68,10 +68,12 @@ class App extends Component {
               </Menu>
             </Header>
             <Content style={{ minHeight: "calc(100vh - 134px)" }}>
-              <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomePage} />
-              <Route path={`${process.env.PUBLIC_URL}/experience`} component={ExperiencePage} />
-              <Route path={`${process.env.PUBLIC_URL}/projects`} component={ProjectsPage} />
-              <Route path={`${process.env.PUBLIC_URL}/hobbies`} component={HobbiesPage} />
+              <Routes>
+                <Route path={`${process.env.PUBLIC_URL}/`} element={<HomePage />} />
+                <Route path={`${process.env.PUBLIC_URL}/experience`} element={<ExperiencePage />} />
+                <Route path={`${process.env.PUBLIC_URL}/projects`} element={<ProjectsPage />} />
+                <Route path={`${process.env.PUBLIC_URL}/hobbies`} element={<HobbiesPage />} />
+              </Routes>
             </Content>
             <Footer style={{ textAlign: "center" }}>
               <span><a href="jmmichel@csail.mit.edu"><Icon type="mail" /></a></span>
