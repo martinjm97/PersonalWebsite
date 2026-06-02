@@ -35,7 +35,7 @@ class HomePage extends Component {
         <h2 className="nameTitle">Semantics of Integrating and Differentiating Singularities</h2>
         <img src={require("../images/singularities.png")} className="projectImg" />
         <p className="projectText">Jesse Michel, Wonyeol Lee, Hongseok Yang<br></br>
-          PLDI 2025.
+          PLDI 2025 (<a href="https://dl.acm.org/doi/pdf/10.1145/3729263">Paper</a>)
           {/* (<a href="https://people.csail.mit.edu/sbangaru/projects/teg-2021/teg-2021.pdf">Paper</a>) */}
           {/* (<a href="https://mit.zoom.us/rec/play/AviQ8S0vTPm0WuopMPnSOZMuUdA-gdtmOkrkXosRrH3Y3BdJzKVGouIJJEmITvA9XymXIFWGcG3wlpym.aro759kUimJX91Rh?autoplay=true&continueMode=true&startTime=1626966335000">Video</a>) */}
         </p>
