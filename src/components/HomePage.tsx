@@ -26,6 +26,12 @@ class HomePage extends Component {
 
         <br></br>
         <h1>Research</h1>
+        <h2 className="nameTitle">Impulse: Momentously Fast, General, and Portable Probabilistic Programming via Compiler Augmentation</h2>
+        <img src={require("../images/impulse.png")} className="projectImg" />
+        <p className="projectText"> Siyuan Brant Qian, Vikram Sathia, Jesse Michel, William S. Moses<br></br>
+          PLDI 2026 SRC
+        </p>
+        <br></br>
         <h2 className="nameTitle">Semantics of Integrating and Differentiating Singularities</h2>
         <img src={require("../images/singularities.png")} className="projectImg" />
         <p className="projectText">Jesse Michel, Wonyeol Lee, Hongseok Yang<br></br>
