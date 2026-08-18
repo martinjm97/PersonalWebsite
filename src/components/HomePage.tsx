@@ -11,11 +11,11 @@ class HomePage extends Component {
         <h1 className="mainTitle">Jesse Michel</h1>
         <img src={require("../images/jesse_michel_headshot_2023.jpeg")} className="placeholderPortrait" />
         <p>
-          I am a PhD student in the Programming Systems Group at MIT advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>. My research focuses on problems in computer graphics, physical simulation, and scientific computing. I approach these problems by designing programming languages with expressive primitives such as integration and with support for automatic differentiation.
+          I am a Lead Research Scientist at <a href="https://tutorintelligence.com/">Tutor Intelligence</a>. I completed my PhD in the Programming Systems Group at MIT, advised by Professor <a href="https://people.csail.mit.edu/mcarbin/">Michael Carbin</a>, with the dissertation <i>Distribution Programming for Physics-Based Computations</i>.{/* My research focuses on problems in computer graphics, physical simulation, and scientific computing. I approach these problems by designing programming languages with expressive primitives such as integration and with support for automatic differentiation. */}
         </p>
 
         <p>
-          I completed my undergraduate at MIT in 2019 with a BS in Pure Mathematics and Computer Science with a minor in Philosophy. I completed my MEng at MIT studying automatic differentiation of arbitrary-precision arithmetic for performance.
+          I completed my undergraduate at MIT in 2019 with a BS in Pure Mathematics and Computer Science with a minor in Philosophy. I completed my MEng at MIT studying automatic differentiation of arbitrary-precision arithmetic for faster numerical convergence.
           {/* A few of my favorite classes were Topology, Graduate Algorithms, Algorithms for Inference, and Philosophy of Religion. */}
         </p>
 
@@ -26,10 +26,17 @@ class HomePage extends Component {
 
         <br></br>
         <h1>Research</h1>
+        <h2 className="nameTitle">Data Factory 1 Technical Report</h2>
+        <img src={require("../images/data_factory_1.png")} className="projectImg" />
+        <p className="projectText"> Kunal Kapoor, Shiraz Khan, Joseph McCalmon, Jesse Michel, Arif Mohammed, Katia Nikiforova, Adam Oppenheimer, Victor Szabo (alphabetical order)<br></br>
+          Tutor Intelligence 2026 (<a href="https://cdn.prod.website-files.com/68fa203de60162c631624d70/69f3b223d5ec2d664d4a497c_tutor_intelligence_data_factory_1_technical_report.pdf">Technical Report</a>)<br></br>
+          <i>Maintaining Demonstration Quality in a 100-Robot Teleoperation Pipeline</i>, poster at the <a href="https://its-the-demos.github.io/">It's the Demos</a> workshop, RSS 2026 (<a href="https://its-the-demos.github.io/abstracts/camera_ready/6_Maintaining_Demonstration_Quality_in_a_100_Robot_Teleoperation_Pipeline.pdf">Abstract</a>)
+        </p>
+        <br></br>
         <h2 className="nameTitle">Impulse: Momentously Fast, General, and Portable Probabilistic Programming via Compiler Augmentation</h2>
         <img src={require("../images/impulse.png")} className="projectImg" />
-        <p className="projectText"> Siyuan Brant Qian, Vikram Sathia, Jesse Michel, William S. Moses<br></br>
-          PLDI 2026 SRC
+        <p className="projectText"> Siyuan Brant Qian, Vimarsh Sathia, Jesse Michel, William S. Moses<br></br>
+          PLDI 2026 SRC (1st Place, Graduate Category)
         </p>
         <br></br>
         <h2 className="nameTitle">Semantics of Integrating and Differentiating Singularities</h2>

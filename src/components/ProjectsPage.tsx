@@ -14,7 +14,7 @@ class ProjectPage extends Component {
         We set up a metaschema for data,
         meaning that we accept queries and then direct them to the appropriate database.
         The vision is to create a high-level schema for incoming data.
-        <br></br><br></br>
+        <br></br><br></br><br></br>
         Awards: Best Use of Nasdaq/Quandl Datasets, Kensho Data Usability Challenge (<a href="https://devpost.com/software/1db">Devpost</a>).
         </p>
         <br></br>

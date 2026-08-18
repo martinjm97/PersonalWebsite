@@ -7,6 +7,14 @@ class ExperiencePage extends Component {
     return (
       <div className="Page">
         <h1>Industry Research</h1>
+        <h2 className="experienceTitle"> Tutor Intelligence: Lead Research Scientist (2025&ndash;present)</h2>
+        <img src={require("../images/data_factory_1.png")} className="experienceImg" />
+        <p className="projectText"> Started the research team at Tutor.
+        My responsibilities included hiring, managing, and setting the research direction.
+        I led the research side of the <a href="https://tutorintelligence.com/blog/building-a-100-robot-data-factory-toward-factory-ready-ai">Data Factory 1</a> effort.
+        </p>
+        <br></br><br></br>
+
         <h2 className="experienceTitle"> ASAPP: Natural Language Processing Research Intern (2019)</h2>
         <img src={require("../images/asapp.jpg")} className="experienceImg" />
         <p className="projectText"> I worked to compress and
